@@ -12,6 +12,6 @@ class Command( BaseCommand ):
 				print( "%s => %s" % ( url, resolved.url_name ) )
 				print( "\t%s" % resolved )
 			except Resolver404:
-				print( "%s => Not Found" %  url )
+				print( "%s => Not Found" % url )
 
 			print
